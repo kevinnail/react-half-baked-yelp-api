@@ -1,0 +1,37 @@
+img {
+  width: 200px;
+}
+.restaurant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #ccc;
+  width: 50%;
+  height: 300px;
+  justify-self: center;
+}
+.info {
+  margin: 0;
+  padding: 0;
+}
+.links {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(154, 100, 255);
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 80px;
+  box-shadow: 1px 1px 10px 0px #000000;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

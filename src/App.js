@@ -30,7 +30,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Alchemy Restaurant Finder</h1>
       <div className="query-form">
         <div className="form-control">
           <label>Zip:</label>
@@ -55,6 +54,7 @@ function App() {
         <button
           onClick={async () => {
             const resp = await fetchBusinesses(zip, search);
+            console.log('resp', resp);
 
             setBusinesses(resp);
           }}
