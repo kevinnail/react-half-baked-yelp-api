@@ -54,7 +54,6 @@ function App() {
         <button
           onClick={async () => {
             const resp = await fetchBusinesses(zip, search);
-            console.log('resp', resp);
 
             setBusinesses(resp);
           }}
