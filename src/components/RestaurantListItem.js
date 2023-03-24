@@ -11,7 +11,7 @@ export const RestaurantListItem = ({ name, rating, image_url, url, location }) =
         <p> {location.zip_code}</p>
         <p>{Array(Math.floor(rating)).fill('⭐️')}</p>
 
-        <a href={url} className="links">
+        <a href={url} className="links" target="_blank" rel="noreferrer">
           More Info
         </a>
       </div>
